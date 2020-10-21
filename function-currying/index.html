@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS: Function Currying</title>
+</head>
+
+<body>
+    <h3>Demo that shows what is Function Currying</h3>
+    <p>This code example covers two ways to achieve it, by using bind function and by using closures. </p>
+    <div>
+        <ul>
+            <li>
+                Currying is a process in functional programming in which we can transform a function with multiple
+                arguments into a sequence of nesting functions. It returns a new function that expects the next argument
+                inline.
+            </li>
+            <li>
+                It keeps returning a new function (that expects the argument) until all the arguments are exhausted.
+                The arguments are kept "alive"(via closure) and all are used in execution
+                when the final function in the currying chain is returned and executed.
+            </li>
+            <li>
+                Currying and Partial Application are related, but they are of different concepts.
+                Partial application transforms a function into another function with smaller arity. Arith refers to
+                number of function arguments.
+            </li>
+        </ul>
+    </div>
+    <h5>For output check your console.</h5>
+
+    <!-- <script src="./bind.js"></script>
+    <script src="./closure.js"></script> -->
+    <script src="./partial-application.js"></script>
+</body>
+
+</html>
