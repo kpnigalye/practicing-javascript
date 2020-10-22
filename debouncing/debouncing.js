@@ -3,9 +3,6 @@ const fetchData = () => {
     console.log('fetching data..', counter++);
 }
 
-
-// Debound function takes two arguments namely function_name and delay
-// It allows function_name method to make calls if the difference between two keystrokes is more (by mentioned number)  
 const debounceFetchData = (fn, delay) => {
     let timer;
 
