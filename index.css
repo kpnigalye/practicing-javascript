@@ -1,0 +1,17 @@
+h3 {
+  text-align: center;
+  color: blueviolet;
+}
+
+ul {
+  font-size: 18px;
+  list-style: lower-roman;
+}
+
+hr {
+  margin: 0 20%;
+  color: darkslategray;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
