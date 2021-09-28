@@ -7,3 +7,4 @@
 - Partial Application
 - Debouncing in JS
 - Drag and Drop using vanilla JS
+- Callbacks
